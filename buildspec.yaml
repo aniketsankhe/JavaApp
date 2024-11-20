@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto17 # Use the appropriate Java version (e.g., corretto8, corretto11, corretto17)
+      java: corretto21 # Use the appropriate Java version (e.g., corretto8, corretto11, corretto17)
     commands:
       - echo "Installing dependencies..."
       - mvn install

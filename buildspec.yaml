@@ -23,8 +23,3 @@ phases:
   post_build:
     commands:
       - echo "Post-build phase completed."
-
-artifacts:
-  files:
-    - target/*.jar # Adjust this if your JAR has a specific name
-  discard-paths: yes
